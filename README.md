@@ -1,7 +1,5 @@
-# Laravel + JWT + Docker Starter Project
-
-โปรเจกต์นี้ใช้ Laravel ร่วมกับ JWT สำหรับระบบยืนยันตัวตน และรันผ่าน Docker อย่างครบถ้วน
-
+# Product Review : Diversition - Backend Candidate Assignment
+Public Laravel + JWT + Docker Starter Project
 ---
 
 ## 🚀 วิธีใช้งาน
