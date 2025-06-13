@@ -105,6 +105,10 @@ php artisan migrate:fresh --seed
 
 
 ## 🧪 Mock API Endpoints 
-ไฟล์ Postman Collection file อยู่ในโปรเจค - POSTMAN - ชื่อไฟล์ Diversition-Test-Backend.postman_collection
+Postman Collection file
+```bash
+# ไฟล์ Postman Collection file อยู่ในโปรเจค - ชื่อไฟล์ 
+Diversition-Test-Backend.postman_collection
+```
 
 
