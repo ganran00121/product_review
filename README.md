@@ -95,7 +95,7 @@ php artisan migrate:fresh --seed
 | หมวด               | เครื่องมือ / Framework   | ใช้ทำอะไร                                    |
 | ------------------ | ------------------------ | -------------------------------------------- |
 | **Backend**        | Laravel Framework        | พัฒนา RESTful API (MVC, Routing, Middleware) |
-| **Database**       | PostgreSQL / MySQL       | เก็บข้อมูล User/Product/Review               |
+| **Database**       | PostgreSQL       | เก็บข้อมูล User/Product/Review               |
 | **Auth**           | `tymon/jwt-auth`         | ทำ JWT Authentication                        |
 | **Seeder/Factory** | Laravel Seeder, Factory  | สร้างข้อมูลจำลองในฐานข้อมูล                  |
 | **Testing Tool**   | Postman / Thunder Client | ใช้ทดสอบ API                                 |
