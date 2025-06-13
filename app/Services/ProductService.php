@@ -32,6 +32,10 @@ class ProductService
         }
         return $product;
     }
+    public function update(int $id, array $data)
+    {
+        return $this->productRepositoryInterface->update($id, $data);
+    }
 
 
     public function createProduct(array $data)
@@ -43,4 +47,9 @@ class ProductService
         }
         return $this->productRepositoryInterface->create($data);
     }
+    public function delete(int $id): bool
+    {
+        return $this->productRepositoryInterface->delete($id);
+    }
+
 }

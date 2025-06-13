@@ -17,7 +17,7 @@ class RoleManagementSeeder extends Seeder
     {
         RoleManagement::factory()->create([
             'name_module' => 'admin',
-            'product' => 'view,create,delete',
+            'product' => 'view,create,update,delete',
         ]);
 
         RoleManagement::factory()->create([

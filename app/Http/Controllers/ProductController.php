@@ -16,27 +16,44 @@ class ProductController extends Controller
     }
 
     public function index(Request $request)
-    {   
+    {
         $perPage = (int) $request->query('per_page', 12);
         $paginated = $this->service->getProductsPaginated($perPage);
         return response()->json($paginated);
     }
     public function show($id)
     {
-        $product = $this->service->getProductById((int)$id);
+        $product = $this->service->getProductById((int) $id);
         return response()->json($product);
     }
     public function store(Request $request)
     {
         $data = $request->validate([
-            'name'        => 'required|string|max:255',
+            'name' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'price'       => 'required|numeric|min:0',
+            'price' => 'required|numeric|min:0',
         ]);
 
         $product = $this->service->createProduct($data);
 
         return response()->json($product, 201);
     }
-    
+    public function update(Request $request, int $id)
+    {
+        $data = $request->validate([
+            'name' => 'sometimes|required|string|max:255',
+            'description' => 'nullable|string',
+            'price' => 'sometimes|required|numeric|min:0',
+        ]);
+
+        $product = $this->service->update($id, $data);
+
+        return response()->json($product);
+    }
+    public function destroy(int $id)
+    {
+        $this->service->delete($id);
+        return response()->json(['message' => 'Product deleted successfully']);
+    }
+
 }
