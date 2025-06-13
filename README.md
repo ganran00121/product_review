@@ -108,7 +108,7 @@ php artisan migrate:fresh --seed
 Postman Collection file
 ```bash
 # ไฟล์ Postman Collection file อยู่ในโปรเจค - ชื่อไฟล์ 
-Diversition-Test-Backend.postman_collection
+Diversition-Test.postman_collection.json
 ```
 
 
