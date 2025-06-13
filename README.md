@@ -16,7 +16,7 @@ php artisan jwt:secret
 # ติดตั้ง dependencies ของ PHP ด้วย Composer
 composer install
 
-# Build และรัน Docker containers ทั้งหมดใน background
+# เปิด Docker แล้ว Build และรัน Docker containers ทั้งหมดใน background
 docker-compose up -d --build
 
 # รีเซ็ตฐานข้อมูลและ seed ข้อมูลตัวอย่าง
