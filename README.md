@@ -77,4 +77,22 @@ php artisan migrate:fresh --seed
 
 ---
 
+
+---
+## 🛠️ เครื่องมือและ Framework ที่ใช้
+| หมวด               | เครื่องมือ / Framework   | ใช้ทำอะไร                                    |
+| ------------------ | ------------------------ | -------------------------------------------- |
+| **Backend**        | Laravel Framework        | พัฒนา RESTful API (MVC, Routing, Middleware) |
+| **Database**       | PostgreSQL / MySQL       | เก็บข้อมูล User/Product/Review               |
+| **Auth**           | `tymon/jwt-auth`         | ทำ JWT Authentication                        |
+| **Seeder/Factory** | Laravel Seeder, Factory  | สร้างข้อมูลจำลองในฐานข้อมูล                  |
+| **Testing Tool**   | Postman / Thunder Client | ใช้ทดสอบ API                                 |
+| **Container**      | Docker + docker-compose  | รันแยก environment และเตรียมพร้อม deploy     |
+| **Code Pattern**   | Repository / Service     | แยก logic เพื่อให้ทดสอบง่าย, clean code      |
+
+
+
 ## 🧪 Mock API Endpoints 
+ไฟล์ Postman Collection file อยู่ในโปรเจค - POSTMAN - ชื่อไฟล์ Diversition-Test-Backend.postman_collection
+
+
