@@ -54,10 +54,11 @@ php artisan migrate:fresh --seed
 
 ### 🔸 ตาราง `role_managements`
 
-| Field | Type        | Description               |
-| ----- | ----------- | ------------------------- |
-| id    | bigint (PK) | รหัสบทบาท                 |
-| name  | string      | ชื่อบทบาท (admin, member) |
+| Field   | Type        | Description               |
+| -----   | ----------- | ------------------------- |
+| id      | bigint (PK) | รหัสบทบาท                 |
+| name    | string      | ชื่อบทบาท (admin, member) |
+| product | text        | สิทธิในการใช้งาน (View, Create , Delete , Put) |
 
 ---
 
