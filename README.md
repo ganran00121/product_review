@@ -10,8 +10,8 @@ Public Laravel + JWT + Docker Starter Project
 
 ```bash
 # Clone Project 
-git clone ????????
-cd ???????????
+git clone https://github.com/ganran00121/product_review.git
+cd product_review
 
 # คัดลอกไฟล์ .env จากไฟล์ตัวอย่าง
 cp .env.example .env
